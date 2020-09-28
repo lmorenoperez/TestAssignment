@@ -11,7 +11,7 @@ namespace TestAssignment
         public static string BackendUrl =
             DeviceInfo.Platform == DevicePlatform.Android ? "https://api.taxjar.com/v2" : "https://api.taxjar.com/v2";
 
-        public static bool UseMockDataStore = true;
+        public static bool UseMockDataStore = false;
         public static string access_token = "5da2f821eee4035db4771edab942a4cc";
         public App()
         {
